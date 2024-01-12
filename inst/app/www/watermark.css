@@ -1,0 +1,7 @@
+body {
+  background-image: url('../img/watermark.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 0.8; /* Adjust the opacity as needed */
+}

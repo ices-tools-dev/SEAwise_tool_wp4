@@ -1,0 +1,27 @@
+Package: SEAwise.tool.wp6
+Title: SEAwise tool for the results of WP6
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Neil",
+           family = "Maginnis",
+           role = c("aut", "cre"),
+           email = "neil.maginnis@ices.com")
+Description: Displays the results of WP6 - Evaluation of fisheries management strategies in an ecosystem context
+License: MIT
+Imports: 
+    config (>= 0.3.2),
+    ggplot2,
+    ggthemes,
+    golem (>= 0.4.1),
+    openxlsx,
+    pals,
+    R.utils,
+    RColorBrewer,
+    scales,
+    shiny (>= 1.8.0),
+    tidyr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
