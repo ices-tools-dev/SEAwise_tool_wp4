@@ -9,9 +9,15 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # Your application UI logic
-    fluidPage(
-      h1("SEAwise.tool.wp6")
-    )
+    navbarPage(title = "SEAwise.tool.wp4",
+      
+      tabPanel("dev",
+               selectInput("ecoregion_selector", "Select Case Study Region", choices = c("Baltic", "Celtic Seas", "Greater North Sea", "Mediterranean"))
+               ),
+      tabPanel("WP4",
+               mod_wp4_ui("wp4_1")
+      )
+  )
   )
 }
 

@@ -19,9 +19,10 @@ Imports:
     RColorBrewer,
     scales,
     shiny (>= 1.8.0),
+    shinycssloaders,
     tidyr
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.2
 Depends: 
     R (>= 2.10)

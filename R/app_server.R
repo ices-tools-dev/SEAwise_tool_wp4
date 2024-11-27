@@ -6,4 +6,7 @@
 #' @noRd
 app_server <- function(input, output, session) {
   # Your application server logic
+  
+  mod_wp4_server("wp4_1", ecoregion = input$ecoregion_selector)
+  
 }
