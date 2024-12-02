@@ -40,7 +40,6 @@ mod_bycatch_server <- function(id, data, map_parameters){
     
     bycatch_data <- reactive({
       req(input$bycatch_species)
-      browser()
       data %>% filter(species == input$bycatch_species)
     })
     
