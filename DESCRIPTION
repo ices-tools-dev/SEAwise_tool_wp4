@@ -10,9 +10,11 @@ Description: Displays the results of WP6 - Evaluation of fisheries management st
 License: MIT
 Imports: 
     config (>= 0.3.2),
+    dplyr,
     ggplot2,
     ggthemes,
     golem (>= 0.4.1),
+    magrittr,
     openxlsx,
     pals,
     R.utils,

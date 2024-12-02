@@ -8,6 +8,7 @@
 #'
 #' @importFrom shiny NS tagList 
 #' @importFrom shinycssloaders withSpinner
+#' @importFrom dplyr filter
 mod_bycatch_ui <- function(id){
   ns <- NS(id)
   tagList(
@@ -39,6 +40,7 @@ mod_bycatch_server <- function(id, data, map_parameters){
     
     bycatch_data <- reactive({
       req(input$bycatch_species)
+      browser()
       data %>% filter(species == input$bycatch_species)
     })
     
